@@ -1,5 +1,6 @@
 
 
+//Конечно, стоит обработать и другие невалидные кейсы, но я пока не умею
 function GetDistance(posLatitude, posLongitude, destLatitude, destLongitude) {
     // Проверка типов данных
     if (typeof posLatitude !== 'number' || typeof posLongitude !== 'number' || typeof destLatitude !== 'number' || typeof destLongitude !== 'number') {
